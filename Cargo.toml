@@ -1,0 +1,10 @@
+[package]
+name = "qcquestion"
+version = "0.1.0"
+authors = ["Brian L. Troutwine <brian@troutwine.us>"]
+
+[dependencies]
+
+[dev-dependencies]
+quickcheck = "0.2"
+quickcheck_macros = "0.2"
