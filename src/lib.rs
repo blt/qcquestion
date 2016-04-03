@@ -8,7 +8,7 @@ extern crate quickcheck;
 use quickcheck::{Arbitrary,Gen};
 
 #[allow(dead_code)]
-#[derive(Debug,Clone,PartialOrd,PartialEq)]
+#[derive(Debug,Clone)]
 pub struct C<'a> {
     s: &'a str,
     b: bool
